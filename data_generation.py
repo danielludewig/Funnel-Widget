@@ -21,7 +21,7 @@ dtRan = pd.date_range(start = start, end = finish)
 
 # Define the categories and probabilities for selection
 cats = ["step" + str(x) for x in range(1,5)] 
-catProbs = [0.6, 0.25, 0.1, 0.05]
+catProbs = [0.9, 0.09, 0.009, 0.001]
 
 
 # Generate 1000 range ids
